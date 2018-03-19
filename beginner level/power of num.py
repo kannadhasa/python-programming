@@ -1,4 +1,4 @@
 x=int(input())
 y=int(input())
-z=x**y
-print(z)
+a=x**y
+print(a)
