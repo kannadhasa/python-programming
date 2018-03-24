@@ -1,5 +1,7 @@
-a=int(input("enter the no of elements:"))
-l=[int(input()) for i in range(0,a)]
-l.sort()
+l=[]
+n=int(input())
+for i in range(0,n):
+    i=int(input())
+    l.append(i)
+    l.sort()
 print(l)
-
